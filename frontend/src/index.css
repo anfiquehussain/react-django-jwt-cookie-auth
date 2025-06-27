@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+@theme {
+  /* MAIN COLORS */
+  --color-main-text-500: var(--color-main-text-500);
+  --color-main-background-500: var(--color-main-background-500);
+  --color-main-primary-500: var(--color-main-primary-500);
+  --color-main-secondary-500: var(--color-main-secondary-500);
+  --color-main-accent-500: var(--color-main-accent-500);
+
+  /* TEXT */
+  --color-text-50: var(--text-50);
+  --color-text-100: var(--text-100);
+  --color-text-200: var(--text-200);
+  --color-text-300: var(--text-300);
+  --color-text-400: var(--text-400);
+  --color-text-500: var(--text-500);
+  --color-text-600: var(--text-600);
+  --color-text-700: var(--text-700);
+  --color-text-800: var(--text-800);
+  --color-text-900: var(--text-900);
+  --color-text-950: var(--text-950);
+
+  /* BACKGROUND */
+  --color-background-50: var(--background-50);
+  --color-background-100: var(--background-100);
+  --color-background-200: var(--background-200);
+  --color-background-300: var(--background-300);
+  --color-background-400: var(--background-400);
+  --color-background-500: var(--background-500);
+  --color-background-600: var(--background-600);
+  --color-background-700: var(--background-700);
+  --color-background-800: var(--background-800);
+  --color-background-900: var(--background-900);
+  --color-background-950: var(--background-950);
+
+  /* PRIMARY */
+  --color-primary-50: var(--primary-50);
+  --color-primary-100: var(--primary-100);
+  --color-primary-200: var(--primary-200);
+  --color-primary-300: var(--primary-300);
+  --color-primary-400: var(--primary-400);
+  --color-primary-500: var(--primary-500);
+  --color-primary-600: var(--primary-600);
+  --color-primary-700: var(--primary-700);
+  --color-primary-800: var(--primary-800);
+  --color-primary-900: var(--primary-900);
+  --color-primary-950: var(--primary-950);
+
+  /* SECONDARY */
+  --color-secondary-50: var(--secondary-50);
+  --color-secondary-100: var(--secondary-100);
+  --color-secondary-200: var(--secondary-200);
+  --color-secondary-300: var(--secondary-300);
+  --color-secondary-400: var(--secondary-400);
+  --color-secondary-500: var(--secondary-500);
+  --color-secondary-600: var(--secondary-600);
+  --color-secondary-700: var(--secondary-700);
+  --color-secondary-800: var(--secondary-800);
+  --color-secondary-900: var(--secondary-900);
+  --color-secondary-950: var(--secondary-950);
+
+  /* ACCENT */
+  --color-accent-50: var(--accent-50);
+  --color-accent-100: var(--accent-100);
+  --color-accent-200: var(--accent-200);
+  --color-accent-300: var(--accent-300);
+  --color-accent-400: var(--accent-400);
+  --color-accent-500: var(--accent-500);
+  --color-accent-600: var(--accent-600);
+  --color-accent-700: var(--accent-700);
+  --color-accent-800: var(--accent-800);
+  --color-accent-900: var(--accent-900);
+  --color-accent-950: var(--accent-950);
+}
+
+:root {
+  --color-main-text-500: #0e0e10;
+  --color-main-background-500: #ededed;
+  --color-main-primary-500: #3a425f;
+  --color-main-secondary-500: #8e9dc7;
+  --color-main-accent-500: #455cb0;
+
+  /* TEXT */
+  --text-50: #f1f1f3;
+  --text-100: #e4e4e7;
+  --text-200: #c8c8d0;
+  --text-300: #adadb8;
+  --text-400: #9292a0;
+  --text-500: #777788;
+  --text-600: #5f5f6d;
+  --text-700: #474752;
+  --text-800: #2f2f37;
+  --text-900: #18181b;
+  --text-950: #0c0c0e;
+
+  /* BACKGROUND */
+  --background-50: #f2f2f2;
+  --background-100: #e6e6e6;
+  --background-200: #cccccc;
+  --background-300: #b3b3b3;
+  --background-400: #999999;
+  --background-500: #808080;
+  --background-600: #666666;
+  --background-700: #4d4d4d;
+  --background-800: #333333;
+  --background-900: #1a1a1a;
+  --background-950: #0d0d0d;
+
+  /* PRIMARY */
+  --primary-50: #eff1f5;
+  --primary-100: #dfe2ec;
+  --primary-200: #c0c5d8;
+  --primary-300: #a0a8c5;
+  --primary-400: #818bb1;
+  --primary-500: #616e9e;
+  --primary-600: #4e587e;
+  --primary-700: #3a425f;
+  --primary-800: #272c3f;
+  --primary-900: #131620;
+  --primary-950: #0a0b10;
+
+  /* SECONDARY */
+  --secondary-50: #eef0f7;
+  --secondary-100: #dde1ee;
+  --secondary-200: #bbc4dd;
+  --secondary-300: #98a6cd;
+  --secondary-400: #7689bc;
+  --secondary-500: #546bab;
+  --secondary-600: #435689;
+  --secondary-700: #324067;
+  --secondary-800: #222b44;
+  --secondary-900: #111522;
+  --secondary-950: #080b11;
+
+  /* ACCENT */
+  --accent-50: #edeff8;
+  --accent-100: #dadff1;
+  --accent-200: #b6bfe2;
+  --accent-300: #919fd4;
+  --accent-400: #6c80c6;
+  --accent-500: #4760b8;
+  --accent-600: #394d93;
+  --accent-700: #2b396e;
+  --accent-800: #1d2649;
+  --accent-900: #0e1325;
+  --accent-950: #070a12;
+}
+
+.dark {
+  --color-main-text-500: #efeff1;
+  --color-main-background-500: #121212;
+  --color-main-primary-500: #a0a8c5;
+  --color-main-secondary-500: #384771;
+  --color-main-accent-500: #4f66ba;
+
+  /* TEXT */
+  --text-50: #0c0c0e;
+  --text-100: #18181b;
+  --text-200: #2f2f37;
+  --text-300: #474752;
+  --text-400: #5f5f6d;
+  --text-500: #777788;
+  --text-600: #9292a0;
+  --text-700: #adadb8;
+  --text-800: #c8c8d0;
+  --text-900: #e4e4e7;
+  --text-950: #f1f1f3;
+
+  /* BACKGROUND */
+  --background-50: #0d0d0d;
+  --background-100: #1a1a1a;
+  --background-200: #333333;
+  --background-300: #4d4d4d;
+  --background-400: #666666;
+  --background-500: #808080;
+  --background-600: #999999;
+  --background-700: #b3b3b3;
+  --background-800: #cccccc;
+  --background-900: #e6e6e6;
+  --background-950: #f2f2f2;
+
+  /* PRIMARY */
+  --primary-50: #0a0b10;
+  --primary-100: #131620;
+  --primary-200: #272c3f;
+  --primary-300: #3a425f;
+  --primary-400: #4e587e;
+  --primary-500: #616e9e;
+  --primary-600: #818bb1;
+  --primary-700: #a0a8c5;
+  --primary-800: #c0c5d8;
+  --primary-900: #dfe2ec;
+  --primary-950: #eff1f5;
+
+  /* SECONDARY */
+  --secondary-50: #080b11;
+  --secondary-100: #111522;
+  --secondary-200: #222b44;
+  --secondary-300: #324067;
+  --secondary-400: #435689;
+  --secondary-500: #546bab;
+  --secondary-600: #7689bc;
+  --secondary-700: #98a6cd;
+  --secondary-800: #bbc4dd;
+  --secondary-900: #dde1ee;
+  --secondary-950: #eef0f7;
+
+  /* ACCENT */
+  --accent-50: #070a12;
+  --accent-100: #0e1325;
+  --accent-200: #1d2649;
+  --accent-300: #2b396e;
+  --accent-400: #394d93;
+  --accent-500: #4760b8;
+  --accent-600: #6c80c6;
+  --accent-700: #919fd4;
+  --accent-800: #b6bfe2;
+  --accent-900: #dadff1;
+  --accent-950: #edeff8;
+}
+
+
+
+body{
+  background-color: var(--color-main-background-500);
+  color: var(--color-main-text-500);
+}
+
+
+/* Define color variables based on theme */
+/* :root[data-theme="light"] {
+  --text: #0e0e10;
+  --background: #ededed;
+  --primary: #3a425f;
+  --secondary: #8e9dc7;
+  --accent: #455cb0;
+}
+
+:root[data-theme="dark"] {
+  --text: #efeff1;
+  --background: #121212;
+  --primary: #a0a8c5;
+  --secondary: #384771;
+  --accent: #4f66ba;
+}
+
+/* Map custom variables for easier use */
+/* @theme {
+  --color-text: #f4534;
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
+/* Apply the colors */
+/* body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}  */
